@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import unittest
 from unittest import mock
 from cake_conundrum import get_total_cost

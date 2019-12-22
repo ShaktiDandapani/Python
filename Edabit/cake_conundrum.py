@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 def get_total_cost(number_of_cakes):
 	"""
 	Return the cost of the cakes with
