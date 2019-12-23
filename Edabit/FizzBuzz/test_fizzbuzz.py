@@ -29,7 +29,6 @@ class TestFizzBuzz(unittest.TestCase):
 		input_number = 25
 		self.assertEqual(fizzbuzz(input_number), "Buzz")
 
-
 	def test_fizzbuzz(self):
 		input_number = 15
 		self.assertEqual(fizzbuzz(input_number), "FizzBuzz")
@@ -37,7 +36,6 @@ class TestFizzBuzz(unittest.TestCase):
 	def test_no_fizzbuzz(self):
 		input_number = 4
 		self.assertEqual(fizzbuzz(input_number), 4)
-
 
 if __name__ == '__main__':
 	unittest.main()
