@@ -1,6 +1,11 @@
 
 
 def fizzbuzz(number):
+
+	fizz = "Fizz"
+	buzz = "Buzz"
+	fizzbuzz = fizz + buzz
+
 	try:
 		number = int(number)
 
@@ -8,14 +13,14 @@ def fizzbuzz(number):
 		print("Please enter an integer or a whole number")
 
 	if number % 3 ==0 and number % 5 == 0:
-		print("FizzBuzz")
-		return "FizzBuzz"
+		print(fizzbuzz)
+		return fizzbuzz
 	elif number % 3 == 0:
-		print("Fizz")
-		return "Fizz"
+		print(fizz)
+		return fizz
 	elif number % 5 == 0:
-		print("Buzz")
-		return "Buzz"	
+		print(buzz)
+		return buzz	
 	else:
 		print("{}".format(number))
 		return number
