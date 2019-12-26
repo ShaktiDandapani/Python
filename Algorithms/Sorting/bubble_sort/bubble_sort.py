@@ -24,9 +24,15 @@ def bubble_sort(input_array):
 
 	return input_array
 
-def bubble_sort_improved(input_array):
+def bubble_sort_pythonic(input_array):
 
-	pass 
+	for i in range(0, len(input_array)-1):
+		for j in range(0, len(input_array)-1):
+			if input_array[j] > input_array[j+1]:
+				input_array[j], input_array[j+1] = \
+				input_array[j+1], input_array[j]
+
+	return input_array
 
 # if __name__ == '__main__':
 # 	sample_array = [4, 1, 3, -1, 0, 10, 11]
