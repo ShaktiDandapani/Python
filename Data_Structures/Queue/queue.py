@@ -4,6 +4,9 @@
 class Queue():
 
 	def __init__(size):
+		self.queue_array = [None for x in range(0, size)]
+		self.front = -1
+		self.rear  = 0
 
 		pass 
 
@@ -35,4 +38,19 @@ class Queue():
 		Get the last item in the queue
 		"""
 
+		pass 
+
+	def is_full():
+		"""
+		Return True/ False based on whether the queue
+		is full/not full.
+		"""
+
+		pass 
+
+	def is_empty():
+		"""
+		Return True/ False based on whether the queue
+		is empty/not empty.
+		"""
 		pass 
