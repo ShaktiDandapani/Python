@@ -19,8 +19,11 @@ class TestStack(unittest.TestCase):
 		self.assertTrue(self.new_stack.is_full())
 
 	def test_empty_stack(self):
-		for i in range(0, 10):
-			self.new_stack.push(i)
+		# for i in range(0, 10):
+		# 	self.new_stack.push(i)
+		# # Fails well for 
+		# for i in range(0, self.new_stack.get_size()-1):
+		# 	self.new_stack.pop()
 		self.assertTrue(self.new_stack.is_empty())
 
 

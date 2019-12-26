@@ -28,8 +28,8 @@ class Stack():
 		if self.is_empty():
 			print("It is an empty empty stack !")
 		else:
-			print("Item {} has been removed".stack_array[0])
-			del(stack_array[self.top])
+			print("Item {} has been removed", self.stack_array[0])
+			del(self.stack_array[self.top])
 			self.top -= 1
 
 	def is_empty(self):
