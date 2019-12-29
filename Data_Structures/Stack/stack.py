@@ -33,7 +33,6 @@ class Stack():
 			self.top -= 1
 
 	def is_empty(self):
-<<<<<<< HEAD
 		# This is wrong < empty eeds to be completely None (modify this)
 
 		empty_bool = True
@@ -42,16 +41,7 @@ class Stack():
 				empty_bool = False
 
 		return empty_bool
-=======
->>>>>>> a17c8c67296eaab636eb52ff773c85be1ebcc73a
-		if None in self.stack_array:
-			print("The stack is empty")
-			self.print_stack()
-			return True 
-		else:
-			print("The stack is not at all empty")
-			self.print_stack()
-			return False
+
 
 	def is_full(self):
 		if None in self.stack_array:
