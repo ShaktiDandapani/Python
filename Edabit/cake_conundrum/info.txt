@@ -1,0 +1,7 @@
+The problems here are taken from the website: https://edabit.com/challenges/python3
+
+Chris wants to grab some cakes, but he had to pay two times the amount of cakes in fees. Each cake is one dollar. Chris has to add the regular payment and the fee payment. Write his cake-paying program so he can successfully see the total he has to pay.
+
+Example
+
+pay = ? * 2
