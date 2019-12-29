@@ -3,7 +3,7 @@
 
 class Queue():
 
-	def __init__(size):
+	def __init__(self, size):
 
 		self.queue_array = [None for x in range(0, size)]
 		self.front = -1
@@ -17,7 +17,7 @@ class Queue():
 		self.queue_array[self.front] = item
 		print("Item {} added to the queue".format(item))
 
-	def dequeue():
+	def dequeue(self):
 
 		"""
 		Remove item from the queue,
@@ -29,13 +29,13 @@ class Queue():
 		self.front -= 1
 
 
-	def front(item):
+	def front(self, item):
 
 		"""
 		Get the front item in the queue
 		"""
 
-	return self.queue_array[self.front] 
+		return self.queue_array[self.front] 
 
 	def rear(self, item):
 		"""
@@ -43,7 +43,7 @@ class Queue():
 		"""
 		return self.queue_array[self.rear]
 
-	def is_full():
+	def is_full(self):
 
 		"""
 		Return True/ False based on whether the queue
@@ -56,7 +56,7 @@ class Queue():
 			print("The queue is full")
 			return True
 
-	def is_empty():
+	def is_empty(self):
 		"""
 		Return True/ False based on whether the queue
 		is empty/not empty.
