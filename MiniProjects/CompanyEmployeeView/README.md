@@ -32,3 +32,7 @@ replete with a set of features which are enlisted as follows:
 * Test Driven Approach
 * Database implementation 
 * Sorting the lists viewed based on tabs/ columns present
+
+
+PyQt code has been developed from the base codes shown in:
+https://realpython.com/python-pyqt-gui-calculator/
