@@ -1,0 +1,3 @@
+The particular set of automating scripts are 
+based on the tutorial introduced in :
+https://automatetheboringstuff.com/chapter8/
