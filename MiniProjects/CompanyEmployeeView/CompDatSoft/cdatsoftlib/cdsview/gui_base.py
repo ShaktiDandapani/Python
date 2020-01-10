@@ -13,8 +13,8 @@ PyQt5 library
 import sys, os 
 
 from PyQt5.QtWidgets import QApplication
-from main_window import CDSMainWindow
-
+from main_window import CDSMainWindow  
+import cdatsoftlib
 
 if __name__ == '__main__':
 	# Any extra arguments or CLI arguments 

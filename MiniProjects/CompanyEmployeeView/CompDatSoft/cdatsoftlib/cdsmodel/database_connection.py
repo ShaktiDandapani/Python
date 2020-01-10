@@ -19,14 +19,23 @@ class DBConn():
 		# if not os.path.exists(db_path):
 		engine = db.create_engine(self.sql_db)
 		engine.echo = False
-
-		Base.metadata.bind = engine
 		Base.metadata.create_all(engine)
-		# metadata = db.MetaData(engine)
+		metadata = db.MetaData(engine)
 		DBSession = sessionmaker(bind=engine, autoflush=False)
 		self.session = DBSession()
 
-		self.session = dbops.create_user(self.session, name='Shakti', address='India', university='Sheffield', role='Student')
+		self.session = dbops.create_user(
+			self.session, 
+			first_name='Shakti', 
+			last_name='Dandapani',
+			address='India', 
+			university='Sheffield', 
+			degree='Computer Science',
+			role='Student',
+		        salary=100,
+			birth_date='02-09-1991-',
+			join_date='01-02-2020',
+		        email_id='shaktidhar_dandapani@gmail.com')
 		
 		self.session.commit()
 		# print(session.query(Users).all())

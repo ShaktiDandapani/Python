@@ -12,7 +12,6 @@ from PyQt5.QtWidgets import QWidget
 from PyQt5.QtWidgets import QStatusBar
 from PyQt5.QtWidgets import QToolBar
 
-
 class CDSMainWindow(QMainWindow):
     
     
