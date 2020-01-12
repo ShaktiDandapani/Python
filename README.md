@@ -4,7 +4,7 @@
 # Purpose
 -------------
 Code representing the things I have learned throughout 
-the course of my education, from my masters to my PhD.
+the course of my education, from my masters to my PhD.!
 
 
 
